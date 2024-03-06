@@ -18,6 +18,6 @@ services:
     build:
       context: ./proxy
       dockerfile: Dockerfile
-    image: softy-pinko-proxy:task5
+    image: softy-pinko/proxy
     ports:
       - "80:80" 
