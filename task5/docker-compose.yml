@@ -14,7 +14,7 @@ services:
     image: softy-pinko-front-end:task4
     ports:
       - "9000"
-    depends-on: back
+    depends_on: back
   proxy:
     build:
       context: ./proxy
